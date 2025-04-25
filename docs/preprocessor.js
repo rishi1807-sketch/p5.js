@@ -3,6 +3,8 @@ const Entities = require('html-entities').AllHtmlEntities;
 
 const DocumentedMethod = require('./documented-method');
 
+
+
 function smokeTestMethods(data) {
   data.classitems.forEach(function(classitem) {
     if (classitem.itemtype === 'method') {
